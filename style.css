@@ -15,12 +15,11 @@ body {
     text-align: center;
 }
 
-/* Main Content */
+
 .content {
     z-index: 2;
 }
 
-/* Year */
 .year {
     position: relative;
     font-size: 110px;
@@ -29,12 +28,12 @@ body {
     display: inline-flex;
 }
 
-/* 5 fades out */
+
 .five {
     animation: fadeFive 2s forwards;
 }
 
-/* 6 slides in */
+
 .six {
     position: absolute;
     right: 0;
@@ -44,7 +43,7 @@ body {
     animation-delay: 1s;
 }
 
-/* Message */
+
 .message {
     margin-top: 30px;
     font-size: 24px;
@@ -52,7 +51,7 @@ body {
     letter-spacing: 1px;
 }
 
-/* Profile row */
+
 .profile-row {
     display: flex;
     justify-content: center;
@@ -61,16 +60,15 @@ body {
     flex-wrap: wrap;
 }
 
-/* Each image + label */
 .profile-item {
     display: flex;
     flex-direction: column;
     align-items: center;
 }
 
-/* Profile circles — LARGE */
+
 .profile {
-    width: 180px;       /* ← adjust here if you want bigger/smaller */
+    width: 180px;       
     height: 180px;
     border-radius: 50%;
     object-fit: cover;
@@ -78,7 +76,7 @@ body {
     box-shadow: 0 0 22px rgba(245, 98, 23, 0.65);
 }
 
-/* Labels */
+
 .label {
     margin-top: 10px;
     font-size: 14px;
@@ -87,7 +85,7 @@ body {
     text-transform: uppercase;
 }
 
-/* Animations */
+
 @keyframes fadeFive {
     to {
         opacity: 0;
@@ -101,3 +99,4 @@ body {
         transform: translateY(0);
     }
 }
+
